@@ -19,7 +19,7 @@ public:
 		the vote.
 	
 	*/
-	std::map<int, int, int> ToBeNamed;
+        std::map<int, int> ToBeNamed;
 
 	double rate(double number);
 	void setStratum();
