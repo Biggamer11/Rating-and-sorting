@@ -15,6 +15,7 @@ void person::setStratum()
 /**/
 person::person(int id, double number)
 {
+    pid = id;
     rating = number;
     if (rating == 6)
     {
